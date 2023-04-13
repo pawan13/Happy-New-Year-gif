@@ -47,6 +47,12 @@
 }
 
 @media(max-width:768px){
+  .container{
+    width: 100%;
+  }
+  .text{
+    animation: disappearAndDisplay 2s infinite;
+  }
     @keyframes disappearAndDisplay {
         0%{
          background:url(./2079.jpeg);
